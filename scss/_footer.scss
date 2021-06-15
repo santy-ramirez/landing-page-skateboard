@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    flex-direction: column;
+
+    .footer-seccion {
+        margin: 30px;
+
+        ul {
+            color: #FDD130;
+
+            li {
+                color: rgb(255, 255, 255);
+                list-style: none;
+            }
+        }
+    }
+
+}
+
+@media only screen and(min-width:700px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+}
