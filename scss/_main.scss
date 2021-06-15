@@ -10,7 +10,6 @@ main{
     padding-block-start: 4em ;
     color: white;
     width: 100%;
-    border: solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,12 +23,11 @@ main{
         font-style: normal;
         font-weight: 400;
         line-height: 2rem;
-        border: yellowgreen solid;
+        
 
         span{
             font-size: 2em;
-            border: red solid;
-
+            
             &::before{
             content: "-";
             color:yellow;
@@ -49,7 +47,7 @@ main{
        padding-inline-start: 1em;
        max-width: 25em;
        line-height: 2rem;
-       border: red solid;
+      
    }
     
    img{
@@ -75,6 +73,7 @@ main{
     background-color:#0B1D26;
    color: white;
     
+   
 
     .cart__titulo{
         margin: 0 ;
@@ -85,9 +84,14 @@ main{
         margin-block-end: 0;
         margin-inline-start: -8em;
         margin-inline-end: 7em;
-padding-block-end: 0;
-padding-block-start: 7em;
+        padding-block-end: 0;
+        padding-block-start: 7em;
      }
+     .cart__parrafo-3{
+        margin-inline-start: -16em;
+        padding-block-start: 5em;
+    
+       }
 
      img{
         min-height: 100%;

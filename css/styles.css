@@ -28,7 +28,6 @@ header {
     left: 0; }
 
 .hero {
-  border: red solid;
   height: 30rem;
   padding: 4em 2em;
   display: flex;
@@ -95,7 +94,6 @@ main {
   padding-block-start: 4em;
   color: white;
   width: 100%;
-  border: solid yellow;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -106,11 +104,9 @@ main {
     font-family: Poppins;
     font-style: normal;
     font-weight: 400;
-    line-height: 2rem;
-    border: yellowgreen solid; }
+    line-height: 2rem; }
     .cart .cart__titulo span {
-      font-size: 2em;
-      border: red solid; }
+      font-size: 2em; }
       .cart .cart__titulo span::before {
         content: "-";
         color: yellow;
@@ -123,8 +119,7 @@ main {
     padding-block-end: 1em;
     padding-inline-start: 1em;
     max-width: 25em;
-    line-height: 2rem;
-    border: red solid; }
+    line-height: 2rem; }
   .cart img {
     width: 100%; }
 
@@ -149,6 +144,9 @@ main {
       margin-inline-end: 7em;
       padding-block-end: 0;
       padding-block-start: 7em; }
+    .cart .cart__parrafo-3 {
+      margin-inline-start: -16em;
+      padding-block-start: 5em; }
     .cart img {
       min-height: 100%; }
 
