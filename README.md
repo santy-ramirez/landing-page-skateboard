@@ -7,4 +7,4 @@ proyecto para poner en practica sass,es una landing-page donde se promociona pat
 ## screnshet del proyecto
 
 
-![](https://cdn.jsdelivr.net/gh/santy-ramirez/assets@main/screenshot_proyectos/screenshot.png)
+![imagen](https://cdn.jsdelivr.net/gh/santy-ramirez/assets@main/screenshot_proyectos/screenshot.png)
