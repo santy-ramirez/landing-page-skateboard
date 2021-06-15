@@ -1,0 +1,122 @@
+main{
+    background-color: #0B1D26;
+    max-width: 1600px;
+    margin: 0 auto;
+   
+}
+
+
+.cart{
+    padding-block-start: 4em ;
+    color: white;
+    width: 100%;
+    border: solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   .cart__titulo{
+        margin-inline-end:  2em;
+        margin-inline-start:  2em;
+
+        font-size: 2em;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+        border: yellowgreen solid;
+
+        span{
+            font-size: 2em;
+            border: red solid;
+
+            &::before{
+            content: "-";
+            color:yellow;
+            font-size: 2em;
+            margin-inline-end: -.6em;
+            z-index: -1;
+         
+       }
+    }
+      
+   }
+   
+.cart__parrafo{
+       margin: 0 auto ;
+       margin-block-end: 2em;
+       padding-block-end: 1em;
+       padding-inline-start: 1em;
+       max-width: 25em;
+       line-height: 2rem;
+       border: red solid;
+   }
+    
+   img{
+       width: 100%;
+   }
+   
+}
+
+@media screen and (min-width: 991px){
+    main{
+        background-color:transparent;
+        margin-block-start: -12em; 
+      
+        
+    }
+    
+
+    .cart{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    background-color:#0B1D26;
+   color: white;
+    
+
+    .cart__titulo{
+        margin: 0 ;
+         
+     }
+     .cart__parrafo{
+        padding-inline-start:0;
+        margin-block-end: 0;
+        margin-inline-start: -8em;
+        margin-inline-end: 7em;
+padding-block-end: 0;
+padding-block-start: 7em;
+     }
+
+     img{
+        min-height: 100%;
+    }
+    
+    }
+   
+    
+   
+    .cart-3{
+       
+       flex-direction: row-reverse;
+       justify-content: space-between;
+
+       .left{
+        margin-inline-start: 6em;
+        .cart__parrafo-1{
+            padding-block-start: 1em;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            min-width: 25em;
+        }
+       }
+      
+        }
+
+
+   }
+  
+
+
+

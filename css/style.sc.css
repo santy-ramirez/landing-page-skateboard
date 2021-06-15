@@ -162,21 +162,6 @@ main {
         margin-inline-start: 0;
         margin-inline-end: 0;
         min-width: 25em; } }
-footer {
-  display: flex;
-  flex-direction: column; }
-  footer .footer-seccion {
-    margin: 30px; }
-    footer .footer-seccion ul {
-      color: #FDD130; }
-      footer .footer-seccion ul li {
-        color: white;
-        list-style: none; }
-
-@media only screen and (min-width: 700px) {
-  footer {
-    display: flex;
-    flex-direction: row; } }
 * {
   margin: 0%;
   padding: 0px; }
@@ -186,4 +171,4 @@ html, body {
   font-size: 16px;
   font-family: Poppins; }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.sc.css.map */
