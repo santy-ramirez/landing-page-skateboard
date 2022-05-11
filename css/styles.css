@@ -8,10 +8,10 @@ header {
   max-width: 1600px;
   height: 700px;
   width: 100%;
-  background-image: url(https://santy-ramirez.github.io/landing-page-skateboard/images/MG.png);
+  /*https://santy-ramirez.github.io/landing-page-skateboard/images/MG-min.png*/
+  background-image: url(../images/MG-min.png );
   background-size: cover;
   background-position-y: 0;
-  background-color: red;
   background-repeat: no-repeat;
   position: relative;
   margin: 0 auto; }
@@ -121,7 +121,9 @@ main {
     max-width: 25em;
     line-height: 2rem; }
   .cart img {
-    width: 100%; }
+    width: 300px;
+    margin: 0 auto;
+     }
 
 @media screen and (min-width: 991px) {
   main {
