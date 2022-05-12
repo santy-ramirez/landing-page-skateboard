@@ -9,7 +9,7 @@
      <hr/> 
    <h3>screnshet del proyecto en desk<h3/>
     
-  <img  src = "https://github.com/santy-ramirez/assets/blob/main/screenshot_proyectos/screenshotp.png" />
+  <img  src = "https://github.com/santy-ramirez/assets/blob/main/screenshot_proyectos/screenshot.png" />
     
   <div/>
 
